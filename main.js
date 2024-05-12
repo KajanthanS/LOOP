@@ -23,7 +23,7 @@ const geometry = new THREE.TorusGeometry( 2, 1, 20, 100 );
 const material = new THREE.MeshBasicMaterial({ map: texture})
 const mesh = new THREE.Mesh(geometry, material)
 scene.add(mesh)
-import imageSource from '/Users/kajanthan/Desktop/LOOP/public/holo.jpeg'
+import imageSource from '/Users/kajanthan/Desktop/Untitled/public/holo.jpeg'
 
 console.log(imageSource)
 
